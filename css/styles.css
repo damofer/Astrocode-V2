@@ -1,0 +1,72 @@
+body {
+       font-family: "helvetica";
+    background-color: #1a1b3a;
+    margin: auto 20%;}
+
+.editor span {
+  width: 120px;
+  background-color: #0a0d2b;
+  padding: 4px;
+  height: 50px;
+  z-index: 100;
+  color: white;
+  position: absolute;
+  bottom: 500px;
+  left: 100px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(207,207,207,0.27);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(207,207,207,0.27);
+  box-shadow: 2px 2px 5px 0px rgba(207,207,207,0.27);
+  text-align: left;
+}
+
+.autocomplete-instruction:hover {
+  background-color: #381d86;
+  color: white;
+}
+
+#background {
+  z-index: 0;
+}
+
+ul {
+  list-style-type: none;
+    position: absolute;
+    left: 8em;
+}
+
+ul li {
+  cursor: pointer;
+
+}
+
+#phaserContainer {
+
+
+
+    display: inline-block;
+
+}
+
+.editor {
+  position: relative;
+  float: right;
+
+}
+
+textarea {
+      font-size: 2em;
+    width: 500px;
+    height: 800px;
+    background-color: #363876;
+    color: white;
+}
+
+a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color:cornflowerblue;
+  text-decoration: none;
+  float: right;
+}
+p{color: white;
+}

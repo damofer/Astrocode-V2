@@ -1,0 +1,108 @@
+{"frames": {
+
+"1.png":
+{
+	"frame": {"x":62,"y":1,"w":58,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":94},
+	"sourceSize": {"w":58,"h":94}
+},
+"10.png":
+{
+	"frame": {"x":452,"y":1,"w":62,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":62,"h":90},
+	"sourceSize": {"w":75,"h":92}
+},
+"11.png":
+{
+	"frame": {"x":684,"y":1,"w":76,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":76,"h":86},
+	"sourceSize": {"w":86,"h":89}
+},
+"12.png":
+{
+	"frame": {"x":257,"y":1,"w":64,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":92},
+	"sourceSize": {"w":66,"h":95}
+},
+"2.png":
+{
+	"frame": {"x":122,"y":1,"w":65,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":65,"h":93},
+	"sourceSize": {"w":73,"h":99}
+},
+"3.png":
+{
+	"frame": {"x":516,"y":1,"w":82,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":82,"h":87},
+	"sourceSize": {"w":87,"h":94}
+},
+"4.png":
+{
+	"frame": {"x":323,"y":1,"w":61,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":4,"w":61,"h":91},
+	"sourceSize": {"w":78,"h":96}
+},
+"5.png":
+{
+	"frame": {"x":762,"y":1,"w":75,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":5,"w":75,"h":86},
+	"sourceSize": {"w":82,"h":92}
+},
+"6.png":
+{
+	"frame": {"x":386,"y":1,"w":64,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":8,"w":64,"h":90},
+	"sourceSize": {"w":68,"h":101}
+},
+"7.png":
+{
+	"frame": {"x":1,"y":1,"w":59,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":59,"h":95},
+	"sourceSize": {"w":61,"h":98}
+},
+"8.png":
+{
+	"frame": {"x":189,"y":1,"w":66,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":66,"h":92},
+	"sourceSize": {"w":78,"h":98}
+},
+"9.png":
+{
+	"frame": {"x":600,"y":1,"w":82,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":82,"h":87},
+	"sourceSize": {"w":85,"h":93}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "astro-sheet.png",
+	"format": "RGBA8888",
+	"size": {"w":838,"h":97},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:79e9d7981244ec3005b9275d27293d3e:921b50d70aa7a226fde1a449909e5657:dce9d18d12ccece64061425d197237d4$"
+}
+}
