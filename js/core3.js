@@ -40,19 +40,19 @@ $(document).ready(function (){
     game.load.image("background_1", "img/bglevel1.jpg");
      game.load.image("background_2", "img/bglevel2.jpg");
       game.load.image("background_3", "img/bglevel3.jpg");
-      
+
     game.load.atlasJSONHash('astronaut','img/astroSheet.png', 'astroSheet.json');
     game.load.image("platform", "img/platform.png");
      game.load.image("obstacle", "img/obstacle.png");
       game.load.image("ship", "img/ship.png");
      game.load.spritesheet('key','img/key-spritesheet.png',70,70,11);
       game.load.spritesheet('door','img/door-spritesheet.png',95.5,64)
-      
+
       game.load.audio('music', 'audio/bg.mp3');
     game.load.audio('card', 'audio/card.mp3');
     game.load.audio('gameover', 'audio/gameover.mp3');
   }
-  
+
 
 
   function firstLevel() {
@@ -64,9 +64,9 @@ $(document).ready(function (){
      platform_4 =game.add.sprite(250,50,'platform');
      key=game.add.sprite(350,400,'key');
     door=game.add.sprite(500,150,'door');
-      astro = game.add.sprite(70, 600, 'astronaut', 0); //Character 
-      
-      
+      astro = game.add.sprite(70, 600, 'astronaut', 0); //Character
+
+
       // Objects that will enable physics when added to the canvas
 
      game.physics.enable( [
@@ -95,9 +95,9 @@ $(document).ready(function (){
       obstacle =game.add.sprite(350,500,'obstacle');
      key=game.add.sprite(500,400,'key');
     door=game.add.sprite(150,120,'door');
-      astro = game.add.sprite(70, 600, 'astronaut', 0); //Character 
-      
-      
+      astro = game.add.sprite(70, 600, 'astronaut', 0); //Character
+
+
       // Objects that will enable physics when added to the canvas
 
      game.physics.enable( [
@@ -116,14 +116,14 @@ $(document).ready(function (){
           platform_3.body.static=true;
            platform_4.body.static=true;
            door.body.static=true
-           
-          
+
+
             obstacle.body.fixedRotation=true;
              door.body.angle+=180;
-             
-             
-             
-           
+
+
+
+
        }
   function thirdLevel() {
     background = game.add.tileSprite(0, 0, 600, 800, "background_3");
@@ -134,11 +134,11 @@ $(document).ready(function (){
      platform_4 =game.add.sprite(80,300,'platform');
       obstacle_1 =game.add.sprite(170,500,'obstacle');
        obstacle_2 =game.add.sprite(400,500,'obstacle');
-     key=game.add.sprite(500,400,'key');
+     key=game.add.sprite(530,400,'key');
     door=game.add.sprite(300,100,'ship');
-      astro = game.add.sprite(70, 600, 'astronaut', 0); //Character 
-      
-      
+      astro = game.add.sprite(70, 600, 'astronaut', 0); //Character
+
+
       // Objects that will enable physics when added to the canvas
 
      game.physics.enable( [
@@ -158,19 +158,19 @@ $(document).ready(function (){
           platform_3.body.static=true;
            platform_4.body.static=true;
            door.body.static=true
-           
-          
+
+
             obstacle_1.body.fixedRotation=true;
              obstacle_2.body.fixedRotation=true;
-            
+
               platform_4.body.angle+=180;
-             
-             
-             
-           
+
+
+
+
        }
- 
-   
+
+
   function create() {
     game.world.setBounds(0, 0, 600, 1200);
 
@@ -191,9 +191,9 @@ $(document).ready(function (){
       music_gameover = game.add.audio('gameover');
     music.play();
 
-   
+
   thirdLevel();
-   
+
      //firstLevel();
 
   //  astro = game.add.sprite(70, 660, 'astronaut', 0); //Character sprites
@@ -203,7 +203,7 @@ $(document).ready(function (){
 
      astro.animations.add('right', ['1.png', '2.png', '6.png', '5.png', '6.png', '4.png'], 12, true);
     astro.animations.add('left', ['7.png', '8.png', '12.png', '11.png', '12.png', '10.png'], 12, true);
-    
+
     door.animations.add('open',0,15,10,false);
     door.animations.play('open');
 
@@ -219,17 +219,17 @@ $(document).ready(function (){
    // setting the mass, if an object collides with another object, the result will be determined by velocity and mass
      astro.body.mass = 0.1;
 
-   
+
 
     //Objects that wont get  angular rotation under any condition
-    
+
     //physics
-    
-    
-    
+
+
+
 
        astro.body.fixedRotation=true;
-       
+
        astro.body.createBodyCallback(key,getKey, this);
        astro.body.createBodyCallback(door,finishLevel, this);
        astro.body.createBodyCallback(obstacle_1,gameover, this);
@@ -368,8 +368,8 @@ $(document).ready(function (){
 
 
     }
-    
-    
+
+
 function getKey(){
    // key.destroy();
    keyCounter +=1;
@@ -380,7 +380,7 @@ function getKey(){
 
 }
 function gameover(){
-   
+
     alert("GAME OVER");
     astro.destroy();
 
@@ -399,15 +399,15 @@ function finishLevel(){
    astro.destroy();
     console.log("KEYS - 1");
     alert("STAGE CLEARED!");
-    
+
     switch(currentLevel){
     case 1:
       currentLevel++;
-     
+
       secondLevel();
     break;
     case 2:
-     
+
       currentLevel++;
       thirdLevel();
     break;
@@ -417,9 +417,9 @@ function finishLevel(){
 }
 
 
-    
-    
-    
+
+
+
 //actions
 function ActionCase(object){
   type= object.type;
