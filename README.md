@@ -10,12 +10,7 @@ Special thnx to <br></br>
 <b>Joseph Palmezano.</b>
 
 This is a version updated of Astrocode, this is the version #2, it was made for a koding.com hackaton.
-<h2>LEVEL 1</h2><br>
-<img src="https://dl.dropboxusercontent.com/u/60358776/APP%20Screenshots/astrocodev2-1.JPG">
-<h2>LEVEL 2</h2><br>
-<img src="https://dl.dropboxusercontent.com/u/60358776/APP%20Screenshots/astrocodev2-2.JPG">
-<h2>LEVEL 3</h2><br>
-<img src="https://dl.dropboxusercontent.com/u/60358776/APP%20Screenshots/astrocodev2-3.JPG">
+
 
 The objective is to get the key and cross the door evading obstacles.
 at the last level, the objective may change, it will get inside your spaceship.
@@ -35,4 +30,4 @@ hope you enjoy it.
 
 
 <b>FOR A LIVE VIEW, CHECK THE LINK BELOW</b><br>
-https://www.googledrive.com/host/0B4UCk2yL1McjVEhOZHk1cU5ndlE/
+https://damofer.github.io/Astrocode-V2/
