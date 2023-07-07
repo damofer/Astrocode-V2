@@ -3,12 +3,6 @@ Koding Game development
 
 This is a game i made with some friends, its goal is to teach how coding is like.
 
-Special thnx to <br></br>
-<b>Daniel Lopera Fernandez</b><br></br>
-<b>Angely Arzuza</b><br></br>
-<b>Erika Donado</b><br></br>
-<b>Joseph Palmezano.</b>
-
 This is a version updated of Astrocode, this is the version #2, it was made for a koding.com hackaton.
 
 
